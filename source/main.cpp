@@ -32,6 +32,7 @@ float hornerIter(Vector& a, int& n, float& x)
 float HornerRec()
 {
 	// not implemented yet
+	return 0;
 }
 
 
