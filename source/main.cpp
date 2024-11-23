@@ -9,7 +9,7 @@
 #include <iostream>
 
 
-// maksymalny stopień wielomianu
+// maximum degree of a polynomial
 constexpr int MAXN = 11;
 using Vector = float[MAXN];
 
