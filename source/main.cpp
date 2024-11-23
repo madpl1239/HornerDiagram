@@ -15,7 +15,7 @@ using Vector = float[MAXN];
 
 
 // iterative version
-float horner(Vector& a, int& n, float& x)
+float hornerIter(Vector& a, int& n, float& x)
 {
 	int i = 0;
 	float f = 0.0f;
@@ -25,6 +25,13 @@ float horner(Vector& a, int& n, float& x)
 		f = f * x + a[i];
 	
 	return f;
+}
+
+
+// recursive version
+float HornerRec()
+{
+	// not implemented yet
 }
 
 
@@ -47,7 +54,7 @@ int main(void)
 	std::cout << "enter x = ";
 	std::cin >> x;
 	
-	std::cout << "f(" << x << ") = " << horner(a, n, x) << "\n";
+	std::cout << "f(" << x << ") = " << hornerIter(a, n, x) << "\n";
 	
 	return 0;
 }
