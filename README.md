@@ -1,5 +1,5 @@
 
-![alt text](HornerDiagram.pnp)
+![alt text](HornerDiagram.png)
 
 Of course this code is written in C++, which is my favorite programming language. I love programming in this language:))
 
