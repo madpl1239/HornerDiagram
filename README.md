@@ -9,6 +9,5 @@ What is Horner's diagram?
 
 
 
-*license*
-
+*license* 
 [MIT](https://choosealicense.com/licenses/mit/)
