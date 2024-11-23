@@ -16,7 +16,7 @@ Horner's scheme has two applications:
 
 We will deal with the second case. We have the following polynomial:
 
-$f(x) = ax^2$
+$f(x) = ax^2 + bx + c$
 
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
