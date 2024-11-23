@@ -2,7 +2,7 @@
  * main.cpp
  * 
  * The code computes the value of a polynomial 
- * using the Horner scheme.
+ * using the Horner's scheme.
  * 
  * 15-04-2024 by madpl (LANA Systems)
  */
