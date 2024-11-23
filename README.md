@@ -1,1 +1,1 @@
-# Horner-s-Scheme
+# Horner's Scheme
