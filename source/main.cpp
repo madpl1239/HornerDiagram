@@ -17,13 +17,13 @@ using Vector = float[MAXN];
 float horner(Vector& a, int& n, float& x)
 {
 	int i = 0;
-	Vector b{};
+	float f = 0.0f;
 	
-	b[0] = a[0];
+	f = a[0];
 	for(int i = 1; i <= n; ++i)
-		b[i] = a[i] + b[i - 1] * x;
+		f = f * x + a[i];
 	
-	return b[n];
+	return f;
 }
 
 
