@@ -14,7 +14,7 @@ Horner's scheme has two applications:
 - to calculate the value of polynomials for a given argument.
 
 
-
+We will deal with the second case. We have the following polynomial:
 
 
 *license* 
