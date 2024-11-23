@@ -14,6 +14,7 @@ constexpr int MAXN = 11;
 using Vector = float[MAXN];
 
 
+// iterative version
 float horner(Vector& a, int& n, float& x)
 {
 	int i = 0;
