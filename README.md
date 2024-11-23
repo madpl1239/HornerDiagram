@@ -16,7 +16,9 @@ Horner's scheme has two applications:
 
 We will deal with the second case. We have the following polynomial:
 
-$f(x) = ax^2 + bx + c$
+$f(x) = ax^2 + bx + c$, which can also be written like this
+
+$f(x) = x(ax + b) + c$
 
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
