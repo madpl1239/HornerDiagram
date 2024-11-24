@@ -45,7 +45,7 @@ int main(void)
 	std::cout << "enter degree of polynomial (max 10): ";
 	std::cin >> n;
 	
-	std::cout << "enter the next coefficients of the polynomial:\n";
+	std::cout << "enter coefficients of the polynomial:\n";
 	for(int i = 0; i < n; ++i)
 	{
 		std::cout << "x^" << n - i << " = ";
@@ -55,6 +55,7 @@ int main(void)
 	std::cout << "enter x = ";
 	std::cin >> x;
 	
+	// solve to terminal
 	std::cout << "f(" << x << ") = " << hornerIter(a, n, x) << "\n";
 	
 	return 0;
