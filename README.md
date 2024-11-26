@@ -21,5 +21,18 @@ $f(x) = ax^2 + bx + c$, which can also be written like this
 
 $f(x) = x(ax + b) + c$
 
+in the first case we have: (where mult means multiplication, and add meanns addition)
+
+$f(x) = a mult x mult x plus b mult x add c$  - tree multiplicaions and one addition.
+
+and second case we have:
+
+$f(x) = x mult (a mult a add b) add c$ - two multiplications and  two additions.
+
+For a third degree polynomial we will have (take my word for it) six multiplications and three additions. 
+
+When the degree of the polynomial increases, the number of multiplications increases. 
+
+
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
