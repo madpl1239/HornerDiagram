@@ -39,12 +39,12 @@ When the degree of the polynomial increases, the number of multiplications incre
 
 
 And here comes the time for Horner's algorithm (or Horner's scheme). To use it, we need to simplify the polynomial.
-
-
-
+<br>
+<br>
 
 *What is it about?*
 <br>
 <br>
+
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
