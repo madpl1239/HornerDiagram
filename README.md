@@ -32,8 +32,8 @@ $f(x) = x * (a * a + b) + c$ - two multiplications
  
 For a third degree polynomial we will have (take my word 
 for it) six multiplications and three additions.
-
-
+<br>
+<br>
 
 When the degree of the polynomial increases, the number of multiplications increases. 
 
@@ -44,8 +44,7 @@ And here comes the time for Horner's algorithm (or Horner's scheme). To use it, 
 
 
 *What is it about?*
-
-
-
+<br>
+<br>
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
