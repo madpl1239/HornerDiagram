@@ -21,13 +21,13 @@ $f(x) = ax^2 + bx + c$, which can also be written like this
 
 $f(x) = x(ax + b) + c$
 
-in the first case we have: (where mult means multiplication, and add meanns addition)
+in the first case we have
 
-$f(x) = a * x * x + b * x + c$  - tree multiplicaions and one addition.
+$f(x) = a * x * x + b * x + c$  - tree multiplicaions
 
 and second case we have:
 
-$f(x) = x * (a * a + b) + c$ - two multiplications and  two additions.
+$f(x) = x * (a * a + b) + c$ - two multiplications
  
 For a third degree polynomial we will have (take my word 
 for it) six multiplications and three additions.
