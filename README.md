@@ -39,8 +39,9 @@ And here comes the time for Horner's algorithm (or Horner's scheme). To use it, 
 
 *What is it about?*<br><br>
 
-We have a polynomial like this:<br>
+We have a polynomial like this:<br><br>
 
+W(x) = a_{4}
 
 
 If we exclude all the x's in front of the bracket, we get:<br>
