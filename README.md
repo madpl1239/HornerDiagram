@@ -23,11 +23,11 @@ $f(x) = x(ax + b) + c$
 
 in the first case we have: (where mult means multiplication, and add meanns addition)
 
-$f(x) = a  \cdots  x  \cdots  x  +  b  \cdots  x  add  c$  - tree multiplicaions and one addition.
+$f(x) = a * x * x + b * x + c$  - tree multiplicaions and one addition.
 
 and second case we have:
 
-$f(x) = x  \cdots  (a  \cdots  a  +  b)  +  c$ - two multiplications and  two additions.
+$f(x) = x * (a * a + b) + c$ - two multiplications and  two additions.
  
 For a third degree polynomial we will have (take my word 
 for it) six multiplications and three additions.
