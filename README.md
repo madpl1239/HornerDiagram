@@ -41,7 +41,7 @@ And here comes the time for Horner's algorithm (or Horner's scheme). To use it, 
 
 We have a polynomial like this:<br><br>
 
-W(x) = a_{4}
+W(x) = a_4
 
 
 If we exclude all the x's in front of the bracket, we get:<br>
