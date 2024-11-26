@@ -8,8 +8,7 @@ But back to the main topic :smiley:
 
 **What is Horner's diagram?**
 --
-Horner's scheme has two applications
-
+Horner's scheme has two applications<br><br>
 
 - we use it to divide polynomials by a polynomial, but only of the first degree.
 
@@ -38,13 +37,9 @@ for it) six multiplications and three additions.
 When the degree of the polynomial increases, the number of multiplications increases. 
 
 
-And here comes the time for Horner's algorithm (or Horner's scheme). To use it, we need to simplify the polynomial.
-<br>
-<br>
+And here comes the time for Horner's algorithm (or Horner's scheme). To use it, we need to simplify the polynomial.<br><br>
 
-*What is it about?*
-<br>
-<br>
+*What is it about?*<br><br>
 
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
