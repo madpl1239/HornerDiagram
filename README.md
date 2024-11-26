@@ -10,6 +10,7 @@ But back to the main topic :smiley:
 --
 Horner's scheme has two applications:
 
+
 - we use it to divide polynomials by a polynomial, but only of the first degree.
 
 - to calculate the value of polynomials for a given argument.
@@ -33,6 +34,11 @@ For a third degree polynomial we will have (take my word
 for it) six multiplications and three additions.
 
 When the degree of the polynomial increases, the number of multiplications increases. 
+
+And here comes the time for Horner's algorithm (or Horner's cheme). To use it, we need to simplify the polynomial.
+
+*What is it about?*
+
 
 
 *license* 
