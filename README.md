@@ -39,8 +39,7 @@ And here comes the time for Horner's algorithm (or Horner's scheme). To use it, 
 
 *What is it about?*<br><br>
 
-We have a polynomial like this:<br><br>
-
+We have a polynomial like this:
 
 $W(x) = a4*x^4 + a3*x^3 + a2*x^2 + a1*x + a0$
 
