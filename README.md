@@ -44,9 +44,9 @@ $`w(x) = x(x(x(a_4x + a_3) + a_2) + a_1) + a_0`$<br /><br />
 And we can represent this above record in the form of a loop:<br />
 $`w(x) = a_4`$ - start value,<br />
 $`w(x) = w(x)x + a_i`$;$`~~~`$ for i = 3, 2, 1, 0<br /><br />
-And now the same in pseudocode:<br />
+And now the same in C/C++:<br />
 ```c
-f = a[4];
+float f = a[4];
 for(int i = 3; i >= 0; --i)
     f = f * x + a[i];
 ```
