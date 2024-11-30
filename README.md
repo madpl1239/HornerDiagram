@@ -67,6 +67,19 @@ float hornerIter(Vector& a, int& n, float& x)
     return f;
 }
 ```
+<br />
+Here's the recursive version:<br />
+
+```c
+// recursive version
+float hornerRec(Vector& a, int n, float x)
+{
+    if(n == 0)
+    return a[0];
+	
+	   return x * hornerRec(a, n - 1, x) + a[n];
+}
+```
 
 <br /><br />
 *license* 
