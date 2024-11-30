@@ -57,6 +57,7 @@ And from there it's only one step to writing an iterative function that calculat
 the value of the polynomial at a given point:<br />
 
 ```c
+// iterative version
 float hornerIter(Vector& a, int& n, float& x)
 {
     int i = 0;
