@@ -48,6 +48,7 @@ If we exclude all the x's in front of the bracket, we get:<br>
 
 $`w(x) = x(x(x(a_4x + a_3) + a_2) + a_1) + a_0`$
 <br>
+
 And we can represent this above record in the form of a loop:
 
 *license* 
