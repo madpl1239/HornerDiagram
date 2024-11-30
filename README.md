@@ -53,6 +53,10 @@ And we can represent this above record in the form of a loop:
 <br><br>
 
 
+$`w(x) = a_4`$ - start value,
+
+$`w(x) = w(x)x + a_i; for i = 3, 2, 1, 0`$
+
 
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
