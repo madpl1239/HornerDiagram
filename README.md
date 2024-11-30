@@ -41,7 +41,7 @@ And here comes the time for Horner's algorithm (or Horner's scheme). To use it, 
 
 We have a polynomial like this:
 
-$ w(x) = a4*x^4 + a3*x^3 + a2*x^2 + a1*x + a0 $
+$` w(x) = a4*x^4 + a3*x^3 + a2*x^2 + a1*x + a0 `$
 
 
 If we exclude all the x's in front of the bracket, we get:<br>
