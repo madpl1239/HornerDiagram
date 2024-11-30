@@ -75,9 +75,9 @@ Here's the recursive version:<br />
 float hornerRec(Vector& a, int n, float x)
 {
     if(n == 0)
-    return a[0];
+        return a[0];
 	
-	   return x * hornerRec(a, n - 1, x) + a[n];
+    return x * hornerRec(a, n - 1, x) + a[n];
 }
 ```
 
