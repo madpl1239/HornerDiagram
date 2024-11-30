@@ -14,7 +14,7 @@ Horner's scheme has two applications<br />
 
 - to calculate the value of polynomials for a given argument.<br /><br />
 
-We will deal with the second case. We have the following polynomial:
+We will deal with the second case. We have the following polynomial:<br /><br />
 $`f(x) = ax^2 + bx + c`$, which can also be written like this
 
 $`f(x) = x(ax + b) + c`$
