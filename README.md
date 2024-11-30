@@ -50,6 +50,22 @@ float f = a[4];
 for(int i = 3; i >= 0; --i)
     f = f * x + a[i];
 ```
+<br />
+And from there it's only one step to writing an iterative function that calculates<br />
+the value of the polynomial at a given point:<br />
+```c
+float hornerIter(Vector& a, int& n, float& x)
+{
+    int i = 0;
+    float f = 0.0f;
+
+    f = a[0];
+    for(int i = 1; i <= n; ++i)
+        f = f * x + a[i];
+
+    return f;
+}
+```
 <br /><br />
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
