@@ -46,6 +46,8 @@ $`w(x) = a_4x^4 + a_3x^3 + a_2x^2 + a_1x + a_0`$
 
 If we exclude all the x's in front of the bracket, we get:<br>
 
+$`w(x) = x(x(x(a_4x + a_3) + a_2) + a_1) + a_0`$
+
 
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
