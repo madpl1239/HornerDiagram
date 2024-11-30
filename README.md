@@ -53,6 +53,7 @@ for(int i = 3; i >= 0; --i)
 <br />
 And from there it's only one step to writing an iterative function that calculates<br />
 the value of the polynomial at a given point:<br />
+
 ```c
 float hornerIter(Vector& a, int& n, float& x)
 {
@@ -66,6 +67,7 @@ float hornerIter(Vector& a, int& n, float& x)
     return f;
 }
 ```
+
 <br /><br />
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
