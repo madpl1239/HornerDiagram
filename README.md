@@ -46,9 +46,9 @@ $`w(x) = a_4`$ - start value,<br />
 $`w(x) = w(x)x + a_i`$;$`~~~`$ for i = 3, 2, 1, 0<br /><br />
 And now the same in pseudocode:<br />
 ```c
-wx = a[4];
-for(int i = 3; i < 0; ++i)
-    wx = wx * x + a[i];
+f = a[4];
+for(int i = 3; i >= 0; --i)
+    f = f * x + a[i];
 ```
 <br /><br />
 *license* 
