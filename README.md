@@ -49,7 +49,7 @@ And now the same in pseudocode:<br />
 wx = a[4];
 for(int i = 3; i < 0; ++i)
     wx = wx * x + a[i];
-```c
-
+```
+<br /><br />
 *license* 
 [MIT](https://choosealicense.com/licenses/mit/)
