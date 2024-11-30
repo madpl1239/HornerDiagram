@@ -29,10 +29,12 @@ float hornerIter(Vector& a, int& n, float& x)
 
 
 // recursive version
-float hornerRec()
+float hornerRec(Vector&a, int n, float x)
 {
-	// not implemented yet
-	return 0;
+	if(n == 0)
+		return a[0];
+	
+	return x * hornerRec(a, n - 1, x) + a[n];
 }
 
 
