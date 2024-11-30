@@ -8,7 +8,7 @@ But back to the main topic :smiley:
 
 **What is Horner's diagram?**
 ==
-Horner's scheme has two applications<br><br>
+Horner's scheme has two applications<br />
 
 - we use it to divide polynomials by a polynomial, but only of the first degree.
 
