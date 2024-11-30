@@ -15,16 +15,13 @@ Horner's scheme has two applications<br />
 - to calculate the value of polynomials for a given argument.<br /><br />
 
 We will deal with the second case. We have the following polynomial:<br />
-$`f(x) = ax^2 + bx + c`$, which can also be written like this
-
+$`f(x) = ax^2 + bx + c`$, which can also be written like this<br />
 $`f(x) = x(ax + b) + c`$
 
-in the first case we have
-
+in the first case we have<br />
 $f(x) = a * x * x + b * x + c$  - tree multiplicaions
 
-and second case we have:
-
+and second case we have:<br />
 $`f(x) = x * (a * a + b) + c`$ - two multiplications
  
 For a third degree polynomial we will have (take my word 
